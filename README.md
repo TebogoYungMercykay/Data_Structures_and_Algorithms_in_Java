@@ -30,7 +30,7 @@ run:
 clean:
 	rm -f *.class
 
-zip:
+tar:
 	tar -cvz *.java makefile -f Filename.tar.gz
 	
 untar:
