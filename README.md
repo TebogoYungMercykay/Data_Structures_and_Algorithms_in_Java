@@ -15,7 +15,7 @@ ________________________________________________________________________________
     - Computer Sciences at Tuks
 ________________________________________________________________________________________
  ## Makefile
- ##### NB: A makefile Is Included to compile and run the codes on the terminal commands:=
+ ##### NB: A makefile Is Included to compile and run the codes on the terminal with the following commands:=
 - make clean
 - make
 - make run
