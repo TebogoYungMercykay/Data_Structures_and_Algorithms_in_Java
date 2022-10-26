@@ -31,9 +31,9 @@ clean:
 	rm -f *.class
 
 zip:
-	tar -cvz *.java makefile -f Filename.zip
-
-unzip:
-	tar -zxvf *.zip
+	tar -cvz *.java makefile -f Filename.tar.gz
+	
+untar:
+	tar -zxvf *.tar.gz
 ```
 ________________________________________________________________________________________
