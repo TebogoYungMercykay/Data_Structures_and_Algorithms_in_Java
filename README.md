@@ -13,14 +13,12 @@ ________________________________________________________________________________
     	- NB: Update links for other JDK Versions 
     	- export JDK_URL=http://download.oracle.com/otn-pub/java/jdk/8u131-b11/d54c1d3a095b4ff2b6607d096fa80163/jdk-8u131-linux-x64.tar.gz
     	- export UNLIMITED_STRENGTH_URL=http://download.oracle.com/otn-pub/java/jce/8/jce_policy-8.zip
-    	- wget --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" \
-    	- ${JDK_URL}
+    	- wget --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" ${JDK_URL}
     	- Extract the archive: tar -xzvf jdk-*.tar.gz
     	- Clean up the tar: rm -fr jdk-*.tar.gz
     	- Make the jvm dir: sudo mkdir -p /usr/lib/jvm
     	- Move the server jre: sudo mv jdk1.8* /usr/lib/jvm/oracle_jdk8
-    	- Install unlimited strength policy: wget --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" \
-    	- ${UNLIMITED_STRENGTH_URL}
+    	- Install unlimited strength policy: wget --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" ${UNLIMITED_STRENGTH_URL}
     	- unzip jce_policy-8.zip
     	- mv UnlimitedJCEPolicyJDK8/local_policy.jar /usr/lib/jvm/oracle_jdk8/jre/lib/security/
     	- mv UnlimitedJCEPolicyJDK8/US_export_policy.jar /usr/lib/jvm/oracle_jdk8/jre/lib/security/
