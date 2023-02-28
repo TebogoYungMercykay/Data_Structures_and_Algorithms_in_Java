@@ -31,7 +31,7 @@ export JAVA_HOME=/usr/lib/jvm/oracle_jdk8
 export DERBY_HOME=/usr/lib/jvm/oracle_jdk8/db" | sudo tee -a /etc/profile.d/oraclejdk.sh
 
 - ### About Codes:
-    - The code is all written by myself only
+    - The codes are all written by myself only
     - I hard code them as part of my practice code, practical and assignemnts for my coding modules.
 - ###  About Me: 
     - Tebogo Sello Selepe
