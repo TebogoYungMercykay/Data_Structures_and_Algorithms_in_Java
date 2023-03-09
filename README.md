@@ -52,6 +52,8 @@ run:
 
 clean:
 	rm -f *.class
+	reset
+	clear
 
 tar:
 	tar -cvz *.java makefile -f Filename.tar.gz
