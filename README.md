@@ -1,7 +1,7 @@
-________________________________________________________________________________________
+---
  
- #              Data_Structure_And_Algorithms_In_Java
-________________________________________________________________________________________
+ #              Data Structures And Algorithms In Java
+---
 - ### Requirements before running codes:
     - Install an IDE that compiles and runs Java codes. Recommendation VS Code
     - How to setup WSL Ubuntu terminal shell and run it from Visual Studio Code: 
@@ -36,7 +36,7 @@ export DERBY_HOME=/usr/lib/jvm/oracle_jdk8/db" | sudo tee -a /etc/profile.d/orac
 - ###  About Me: 
     - Tebogo Sello Selepe
     - Computer Sciences at Tuks
-________________________________________________________________________________________
+---
  ## Makefile
  ##### NB: A makefile Is Included to compile and run the codes on the terminal with the following commands:=
 - make clean
@@ -56,9 +56,9 @@ clean:
 	clear
 
 tar:
-	tar -cvz *.java makefile -f Filename.tar.gz
+	tar -cvz *.* -f Java_Filename.tar.gz
 	
 untar:
 	tar -zxvf *.tar.gz
 ```
-________________________________________________________________________________________
+---
